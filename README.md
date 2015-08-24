@@ -18,5 +18,7 @@ Implementation
 
 Sitescript is implemented as a node module. A node server forwards requests with arguments to a sitescript file, which is interpreted to produce HTML.
 
+Note: sitescript is in early development, so it does not yet do much of anything.
+
 --------------------------
 Copyright 2015 Brett Houtz

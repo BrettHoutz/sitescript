@@ -1,4 +1,17 @@
 var ss = require("./sitescript");
-var fs = require("fs");
+var express = require('express');
 
-fs.writeFileSync("./test.html", ss.build().index);
+var app = express();
+
+ss("./www/", function(site){
+	app.get('/*', function (req, res){
+		res.send(site.get(req.url.substring(1)));
+	});
+
+	var server = app.listen(3000, function () {
+		var host = server.address().address;
+		var port = server.address().port;
+
+		console.log('App listening at http://%s:%s', host, port);
+	});
+});

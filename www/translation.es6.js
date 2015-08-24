@@ -37,9 +37,9 @@ __e.__ins(ss__index().__hasInit(__e=>{
 	}));
 }));
 
-__e.__ins(ss__dir().__hasInit(__e=>{
+__e.__ins(ss__dir('subdir').__hasInit(__e=>{
 	__e.__ins(ss__index().__hasInit('page'));
-	__e.__ins(ss__page().__hasInit('page2'));
+	__e.__ins(ss__page('second').__hasInit('page2'));
 	
 }));
 

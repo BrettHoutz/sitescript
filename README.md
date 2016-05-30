@@ -1,6 +1,8 @@
 sitescript
 ==========
 
+UPDATE: I started this project when i was very inexperienced at web development. I only had experience with static websites. Though i still think it's possible to complete this project, it would be much more difficult than i had realized. This project has been abandoned, for now.
+
 Sitescript (sylized like an improper noun) is a language for generating webpages. It is an ambitious attempt at unifying the job done by HTML, CSS, Javascript, and any server-side page generation (e.g. CGI, PHP, erb) into a single language. Sitescript aims to work as both a scripting and a markup language.
 
 Sitescript is a syntactic expansion of Javascript. It is best to know Javascript before using sitescript.
